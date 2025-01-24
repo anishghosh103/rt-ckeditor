@@ -2,7 +2,7 @@
   "name": "rt-ckeditor",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "publishConfig": {
     "access": "public"
   },
@@ -19,6 +19,7 @@
     "@ckeditor/ckeditor5-font": "40.0.0",
     "@ckeditor/ckeditor5-heading": "40.0.0",
     "@ckeditor/ckeditor5-horizontal-line": "40.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^40.0.0",
     "@ckeditor/ckeditor5-image": "40.0.0",
     "@ckeditor/ckeditor5-indent": "40.0.0",
     "@ckeditor/ckeditor5-link": "40.0.0",

@@ -23,6 +23,7 @@ import {
 } from '@ckeditor/ckeditor5-font';
 import { Heading } from '@ckeditor/ckeditor5-heading';
 import { HorizontalLine } from '@ckeditor/ckeditor5-horizontal-line';
+import { HtmlEmbed } from '@ckeditor/ckeditor5-html-embed';
 import {
   AutoImage,
   Image,
@@ -89,6 +90,7 @@ class Editor extends DecoupledEditor {
     TextTransformation,
     TodoList,
     Underline,
+    HtmlEmbed,
   ];
 
   public static override defaultConfig = {
@@ -121,6 +123,7 @@ class Editor extends DecoupledEditor {
         'imageUpload',
         'insertTable',
         'mediaEmbed',
+        'htmlEmbed',
         '|',
         'undo',
         'redo',
